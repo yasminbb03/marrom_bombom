@@ -1,0 +1,12 @@
+roteiro 1
+
+cargo=input("cargo:")
+dia=input("dia da semana:")
+       
+if cargo== "gerente" :
+    print("acesso permitido")  
+elif cargo =="analista" or cargo == "estagiario":
+     if dia == "segunda-feira" or dia == "terça-feira" or dia == "quarta-feira" or dia == "quinta-feira" or dia == "sexta-feira":
+        print("acesso permitido")
+else:
+   print("acesso negado")
