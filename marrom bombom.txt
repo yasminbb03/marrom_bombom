@@ -1,4 +1,4 @@
-semana 17roteiro 1
+semana 17 aula 01 roteiro 1
 
 cargo=input("cargo:")
 dia=input("dia da semana:")
@@ -10,4 +10,5 @@ elif cargo =="analista" or cargo == "estagiario":
         print("acesso permitido")
 else:
    print("acesso negado")
+
 
